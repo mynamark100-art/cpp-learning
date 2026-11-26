@@ -37,7 +37,7 @@ break;
   
 default:
 cout << "not existed in menu\n";
-break;
+return 0;
 }
   
 cout << "please enter the quantity\n";
